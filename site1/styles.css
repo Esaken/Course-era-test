@@ -1,0 +1,64 @@
+p{
+    color: blue;
+}
+h2{
+    color: red;
+    text-align: center;
+}
+
+.highlight {
+    font-size: 20px;
+    background-color: green;
+
+}
+#xx {
+    font-size: 30px;
+}
+
+p, h1{
+    color: purple;
+}
+
+p.big {
+    font-size: 20px;
+    background-color: aqua;
+}
+
+header li{
+    list-style: none;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    background-color: green;
+    border: 1px solid red;
+    display: block;
+    width:200px;
+    text-align: center;
+    margin-bottom: 2px;
+
+}
+
+a:hover, a:active{
+    background-color: red;
+    color: purple;
+
+                            
+
+}
+
+section li:nth-child(3) {
+    font-size: 30px;
+}
+
+section div:nth-child(even) {
+    background-color: pink;
+    font-size: 20px;
+    display: block;
+    width: 300px;
+}
+
+section div:nth-child(4):hover{
+    cursor: grab;
+    background-color: green;
+}
