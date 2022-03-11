@@ -1,3 +1,11 @@
+*{
+    text-align: center;
+    background-color: grey;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
 p{
     color: blue;
 }
@@ -60,5 +68,15 @@ section div:nth-child(even) {
 
 section div:nth-child(4):hover{
     cursor: grab;
+    background-color: green;
+}
+
+#box{
+    background-color: blue;
+    padding: 10px 10px 10px 10px;
+    border: 5px solid black;
+    margin: 40px;;
+}
+#content{
     background-color: green;
 }
