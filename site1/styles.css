@@ -1,6 +1,7 @@
 *{
-    text-align: center;
+   
     background-color: grey;
+    box-sizing: border-box;
 }
 body{
     margin: 0;
@@ -68,15 +69,27 @@ section div:nth-child(even) {
 
 section div:nth-child(4):hover{
     cursor: grab;
+    font-size: 30px;
     background-color: green;
 }
 
 #box{
+    font-size: 2em;
     background-color: blue;
     padding: 10px 10px 10px 10px;
     border: 5px solid black;
-    margin: 40px;;
+    margin: 40px;
+    height: 150px;
+    overflow: auto;
+   
 }
 #content{
-    background-color: green;
+    background-color: pink;
 }
+
+.relative-position{
+    position: relative;
+    top:50px ;
+    left: 50px;
+}
+/*original space is still maintained by use of relative positioning */
