@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<p>media queries help in making responsive websites</p>
+<p>each media feature falls to resole to either true or false</p>
+<h2>examples</h2>
+<ol>
+    <li>max-width</li>
+    <li>min-width</li>
+    <li>orientation (potrait)</li>
+    <li>screen</li>
+    <li>print</li>
+
+
+</ol>
+
+<div>media queries can be combined using logical operators</div>
+<p><i>@media (min width : 768px) and (max-width: 991px)</i></p>
+
+<p>always start with base styles in css</p>
+<h2>careful not to overlap range boundaries</h2>
+
+<h1>Practical exercise</h1>
+<!--css pactiCAL CODE-->
+    <style>
+
+        /******bASE STYLES*******/
+        p{
+            border: 1px solid black;
+            margin-bottom:15px;
+
+        }
+
+        #p1{
+            background-color: #A52A2A;
+            width: 300px;
+            height: 300px;
+
+        }
+
+        #p2{
+            background-color: #deb887;
+            width: 50px;
+            height: 50px;
+        }
+
+        /*******lARGE DEVICES  ONLY***********/
+
+
+        @media(min-width: 1200px) {
+            #p1 {
+                width: 80%;
+            }
+            #p2{
+                width: 150px;
+                height: 150px;
+            }
+        }
+        /************MEDIUM DEVICES ONLY***********/
+
+        @media(min-width: 992px) and (max-width: 1199px) {
+            #p1 {
+                width: 50%;
+            }
+            #p2{
+                width: 100px;
+                height: 100px;
+            }
+        }
+    </style>
+
+<p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro dolor veniam veritatis saepe ipsam? Praesentium dolorum sit delectus quasi animi consequuntur vero, ab, architecto deleniti quam autem! Quos, fugit unde?</p>
+
+<p id="p2">  .  </p>
+
+
+<p>check ranges in twitter bootstrap</p>
+
+    
+</body>
+</html>
