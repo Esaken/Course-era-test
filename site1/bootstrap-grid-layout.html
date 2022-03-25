@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <!--my own stylesheet-->
+
+    </header>
+
+    <!--should be in styles css-->
+    <style>
+        .row{
+            margin-bottom: 15px;
+
+        }
+        .row > div {
+            border: 2px solid red;
+            background-color: grey;
+        }
+    </style>
+    
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-4  col-sm-6">Col 1</div>
+        <div class="col-md-4  col-sm-6">Col 2</div>
+        <div class="col-md-4  col-sm-6">Col 3</div>
+
+        <div class="col-md-4  col-sm-6">Col 4</div>
+        <div class="col-md-4  col-sm-6">Col 5</div>
+        <div class="col-md-4  col-sm-6">Col 6</div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-6">Col 1</div>
+        <div class="col-xs-6">Col 2</div>
+        <div class="col-xs-6">Col 3</div>
+
+    </div>
+</div>
+
+<p>go to bootstrap and check on the grid system to see how they explain their bootstrap code</p>
+<br>
+<p>grid size add up to 12 for columns</p>
+<p>md mean smedium screen size</p><br>
+<p>sm - small screens</p>
+
+<h1>note</h1>
+<div>strats with either .container or .container-fluid</div>
+<div>all columns must be inside a .row</div>
+
+<h3>if no ther rules apply, specifying col-xs-.... will keep that layout no matter what size of the screen</h3>
+
+<script src="./js/Jquery.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script></script>
+
+</body>
+</html>
